@@ -1,0 +1,1 @@
+--------------------------------------- 去掉密語的快捷記憶-------------------------------------ChatTypeInfo['WHISPER'].sticky = 0ChatTypeInfo['BN_WHISPER'].sticky = 0

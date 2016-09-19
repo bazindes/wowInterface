@@ -1,0 +1,11 @@
+.DS_Store
+Cache/ 
+Data/ 
+Errors/ 
+Logs/ 
+Movies/ 
+Wo*
+.build.info
+.pat*
+Laun*
+.pro*

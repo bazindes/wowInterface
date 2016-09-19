@@ -1,0 +1,170 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 0,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DEMONHUNTER",
+				["damaged"] = {
+				},
+				["auras"] = {
+				},
+				["role"] = "NONE",
+				["time"] = 6,
+				["interrupts"] = 0,
+				["power"] = {
+				},
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["maxhp"] = 242460,
+				["damagetaken"] = 90129,
+				["deathlog"] = {
+					{
+						["ts"] = 1473600186.953,
+						["amount"] = -4976,
+						["spellid"] = 194811,
+						["hp"] = 202158,
+					}, -- [1]
+					{
+						["ts"] = 1473600186.953,
+						["amount"] = -4981,
+						["spellid"] = 194811,
+						["hp"] = 197177,
+					}, -- [2]
+					{
+						["ts"] = 1473600186.993,
+						["amount"] = -4927,
+						["spellid"] = 194811,
+						["hp"] = 192250,
+					}, -- [3]
+					{
+						["hp"] = 222344,
+						["ts"] = 1473599445.815,
+						["spellid"] = 194811,
+						["amount"] = -5033,
+					}, -- [4]
+					{
+						["hp"] = 217428,
+						["ts"] = 1473599446.328,
+						["spellid"] = 194811,
+						["amount"] = -4916,
+					}, -- [5]
+					{
+						["hp"] = 212513,
+						["ts"] = 1473599446.844,
+						["spellid"] = 194811,
+						["amount"] = -4915,
+					}, -- [6]
+					{
+						["hp"] = 237381,
+						["ts"] = 1473600171.029,
+						["spellid"] = 194811,
+						["amount"] = -5079,
+					}, -- [7]
+					{
+						["hp"] = 232450,
+						["ts"] = 1473600171.529,
+						["spellid"] = 194811,
+						["amount"] = -4931,
+					}, -- [8]
+					{
+						["hp"] = 227506,
+						["ts"] = 1473600172.359,
+						["spellid"] = 194811,
+						["amount"] = -4944,
+					}, -- [9]
+					{
+						["hp"] = 222382,
+						["ts"] = 1473600172.533,
+						["spellid"] = 194811,
+						["amount"] = -5124,
+					}, -- [10]
+					{
+						["hp"] = 217367,
+						["ts"] = 1473600173.413,
+						["spellid"] = 194811,
+						["amount"] = -5015,
+					}, -- [11]
+					{
+						["hp"] = 212431,
+						["ts"] = 1473600173.541,
+						["spellid"] = 194811,
+						["amount"] = -4936,
+					}, -- [12]
+					{
+						["hp"] = 217320,
+						["ts"] = 1473600185.135,
+						["spellid"] = 194811,
+						["amount"] = -5083,
+					}, -- [13]
+					{
+						["hp"] = 212210,
+						["ts"] = 1473600185.135,
+						["spellid"] = 194811,
+						["amount"] = -5110,
+					}, -- [14]
+					{
+						["hp"] = 207134,
+						["ts"] = 1473600186.693,
+						["spellid"] = 194811,
+						["amount"] = -5076,
+					}, -- [15]
+					["pos"] = 4,
+				},
+				["id"] = "Player-1498-0442F960",
+				["overhealing"] = 0,
+				["damagetakenspells"] = {
+					["Fel Beam"] = {
+						["crushing"] = 0,
+						["id"] = 194811,
+						["min"] = 4880,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+						["name"] = "Fel Beam",
+						["blocked"] = 0,
+						["totalhits"] = 18,
+						["resisted"] = 0,
+						["max"] = 5124,
+						["damage"] = 90129,
+					},
+				},
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["name"] = "Satire",
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+		},
+		["mobtaken"] = 0,
+		["healing"] = 0,
+		["power"] = {
+		},
+		["multistrikes"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1473599442,
+		["damagetaken"] = 90129,
+		["mobhdone"] = 0,
+		["last_action"] = 1473599442,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+	},
+}

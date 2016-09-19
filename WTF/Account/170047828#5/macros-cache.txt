@@ -1,0 +1,28 @@
+VER 3 0000000000000004 "BF_Mount" "ability_mount_charger"
+/bfmount
+END
+VER 3 0000000000000002 "BT" "ABILITY_HUNTER_PET_DEVILSAUR"
+/施放 急速射击
+/施放 狂野怒火
+/use 14
+/施放 野性呼唤
+/施放 血性狂怒(种族特长)
+/cancelaura 保护之手 
+/cancelaura 威慑
+/施放 疯乱(狂野技能)
+/施放 急速射击
+END
+VER 3 0000000000000003 "尼玛" "INV_MISC_QUESTIONMARK"
+/5  出G求带22  有木有暴力的法爷  
+END
+VER 3 0000000000000001 "撸" "ABILITY_IMPALINGBOLT"
+#showtooltip 奥术射击
+/startattack
+/console Sound_EnableSFX 0
+/castsequence reset=combat/target 毒蛇钉刺,x
+/castsequence reset=0 0,0,眼镜蛇射击
+/castsequence reset=0 0,奥术射击,0
+/cast 杀戮命令
+/script UIErrorsFrame:Clear()
+/console Sound_EnableSFX 1
+END

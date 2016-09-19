@@ -1,0 +1,39 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Script file="RicoMiniMap.lua" />
+	<Frame name="RicoMiniMap_Scripts" hidden="true">
+		<Scripts>
+			<OnLoad>RicoMiniMap_OnLoad();</OnLoad>
+		</Scripts>
+	</Frame>
+	<Frame name="MinimapZoom" frameStrata="LOW" enableMouse="false" parent="Minimap" Hidden="false">
+    <Size><AbsDimension x="128" y="128"/></Size>
+    <Anchors>
+	    <Anchor point="CENTER" relativePoint="CENTER" relativeTo="Minimap">
+        <Offset><AbsDimension x="0" y="0"/></Offset>
+  	  </Anchor>
+    </Anchors>          
+    <Scripts>
+      <OnUpdate>RicoMiniMap_updateLocText();</OnUpdate>
+    </Scripts>
+  </Frame>
+	<Frame name="RicoMinimap_CoordinatesFrame" parent="Minimap" frameStrata="BACKGROUND" alphaMode="ADD">
+		<Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<EdgeSize><AbsValue val="16"/></EdgeSize>
+			<TileSize><AbsValue val="16"/></TileSize>
+			<BackgroundInsets><AbsInset left="5" right="5" top="5" bottom="5"/></BackgroundInsets>
+		</Backdrop>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="RicoMinimap_CoordinatesText" inherits="GameFontNormalSmall" justifyH="CENTER">
+					<Anchors>
+						<Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="0" y="6"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+</Ui>

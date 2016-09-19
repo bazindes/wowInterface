@@ -1,0 +1,50 @@
+VER 3 0100000000000008 "10刀爆发宏" "INV_MISC_QUESTIONMARK"
+#showtooltips 操控时间
+/cast 操控时间
+/S 我要吃10刀！
+END
+VER 3 0100000000000009 "偷取" "INV_MISC_QUESTIONMARK"
+#showtooltip 法术吸取
+/cast [target=focus] 法术吸取
+END
+VER 3 0100000000000007 "冰法时间" "INV_MISC_QUESTIONMARK"
+#showtooltips 操控时间
+/cast 冰冷血脉
+/castsequence reset=1 操控时间,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+/cast 冰枪术
+END
+VER 3 0100000000000006 "冰法水BB" "INV_MISC_QUESTIONMARK"
+#showtooltip [nopet] [target=pet,dead] 召唤水元素; [pet] 冰冻术
+/cast [nopet]召唤水元素
+/cast [target=pet,dead]召唤水元素
+/stopmacro [target=pet,dead]
+/cast 冰冻术
+/petattack [harm]
+END
+VER 3 010000000000000A "反制" "INV_MISC_QUESTIONMARK"
+#showtooltip 法术反制
+/cast 法术反制
+/s 反死你丫的[%T]
+END
+VER 3 0100000000000004 "奥法爆发" "SPELL_MAGE_ALTERTIME"
+#showtooltips 操控时间
+/cast 闪耀法力宝石
+/cast 奥术强化
+/castsequence reset=1 操控时间,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+/cast 奥术飞弹
+END
+VER 3 0100000000000002 "开怪" "ACHIEVEMENT_GUILD_FORGREATJUSTICERANK2"
+/DBM PULL 10
+END
+VER 3 0100000000000001 "恐惧老4" "INV_MISC_QUESTIONMARK"
+/tar [@focus]
+/click ExtraActionButton1 
+/targetlasttarget
+END
+VER 3 0100000000000003 "目标" "ABILITY_SHOOTWAND"
+/tar 军情七处破坏者
+END
+VER 3 0100000000000005 "虚空风暴指向" "INV_MISC_QUESTIONMARK"
+#showtooltip 虚空风暴
+/cast [target=mouseover,nomodifier,exists] 虚空风暴;虚空风暴
+END

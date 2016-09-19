@@ -1,0 +1,7 @@
+## Interface: 70000
+## Title: |cffFFF569t|rRunes
+## Notes: DK Runes
+## Version: 1.3
+
+Config.lua
+Core.lua

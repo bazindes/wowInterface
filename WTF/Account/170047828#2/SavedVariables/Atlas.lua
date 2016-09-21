@@ -16,11 +16,11 @@ AtlasOptions = {
 	["AtlasButtonShown"] = true,
 	["AtlasVersion"] = "1.24.00",
 	["AtlasButtonPosition"] = 26,
-	["AtlasBossDescScale"] = 0.899999976158142,
-	["AtlasZone"] = 1,
-	["AtlasBossDesc"] = true,
-	["AtlasScale"] = 0.999999940395355,
 	["AtlasRightClick"] = false,
+	["AtlasZone"] = 1,
+	["AtlasScale"] = 0.999999940395355,
+	["AtlasBossDesc"] = true,
+	["AtlasBossDescScale"] = 0.899999976158142,
 }
 AtlasDB = {
 	["profileKeys"] = {

@@ -19,31 +19,31 @@ Bagnon_Sets = {
 			["reverseBags"] = false,
 			["columns"] = 10,
 			["alpha"] = 1,
-			["y"] = 213.333297729492,
+			["spacing"] = 2,
 			["bagBreak"] = false,
 			["x"] = -175.333374023438,
 			["search"] = false,
 			["broker"] = true,
 			["reverseSlots"] = true,
+			["itemScale"] = 1,
 			["color"] = {
 			},
-			["itemScale"] = 1,
-			["spacing"] = 2,
+			["y"] = 213.333297729492,
 		},
 		["vault"] = {
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
 			["borderColor"] = {
+			},
+			["hiddenBags"] = {
 			},
 		},
 		["guild"] = {
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
 			["borderColor"] = {
+			},
+			["hiddenBags"] = {
 			},
 		},
 		["bank"] = {
@@ -67,18 +67,18 @@ Bagnon_Sets = {
 	},
 	["inscribeColor"] = {
 	},
-	["players"] = {
-		["加基森"] = {
-		},
-	},
-	["enchantColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["herbColor"] = {
+	["leatherColor"] = {
 	},
 	["tackleColor"] = {
 	},
-	["leatherColor"] = {
+	["herbColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["players"] = {
+		["加基森"] = {
+		},
 	},
 }

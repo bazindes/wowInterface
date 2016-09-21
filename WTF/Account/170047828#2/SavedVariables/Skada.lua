@@ -15,9 +15,6 @@ SkadaDB = {
 				{
 					["barheight"] = 22,
 					["classicons"] = false,
-					["background"] = {
-						["height"] = 136.000152587891,
-					},
 					["y"] = 19.3328151702881,
 					["barfont"] = "Arial Narrow",
 					["title"] = {
@@ -28,6 +25,9 @@ SkadaDB = {
 					["mode"] = "Damage",
 					["bartexture"] = "TukTex",
 					["barwidth"] = 310.666717529297,
+					["background"] = {
+						["height"] = 136.000152587891,
+					},
 					["x"] = -67.3333740234375,
 				}, -- [1]
 			},

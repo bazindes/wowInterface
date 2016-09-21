@@ -395,7 +395,7 @@ oUF:Factory(function(self)
 			  "drkGroup"..i,
 			  nil,
 			  soloraid,
-			  "showRaid",           true,
+			  "showRaid",           false,
 			  "point",              point,
 			  "startingIndex",		1,
 			  "yOffset",            -5,

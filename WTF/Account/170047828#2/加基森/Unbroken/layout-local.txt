@@ -74,8 +74,8 @@ FrameLevel: 1
 Anchor: BOTTOM
 X: 3
 Y: 149
-W: 267
-H: 300
+W: 246
+H: 216
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
 Anchor: CENTER

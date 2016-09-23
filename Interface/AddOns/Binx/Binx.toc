@@ -1,0 +1,24 @@
+﻿## Interface: 70000
+## Title: |cff00FF55[Binx]|r
+## Title-zhCN: |cff00FF55迷你小功能插件|r
+## Notes-zhCN: 鼠标提示收邮件.快速焦点.自动修理.按键染色.聊天按钮.频道标签染色和简写。
+## SavedVariables: TinyChatLevelDB
+
+##一键收取邮件
+iMail.lua
+
+## 耐久度显示
+SyDurGlow.lua
+
+## 自动售卖物品
+SyMerchant.lua
+
+##聊天框显示玩家等级
+ChatLevel.lua
+
+##聊天按钮
+Chatbar.lua
+
+
+## 重载命令/网格校正
+align.lua

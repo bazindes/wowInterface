@@ -12,6 +12,11 @@ VER 3 0000000000000011 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恶魔掌控; [@mouseover,exists,mod:shift] 恐惧
 END
+VER 3 0000000000000026 "gank" "132095"
+#showtooltip Soul Reaper
+/cast Blood Fury(Racial)
+/cast Soul Reaper
+END
 VER 3 0000000000000025 "lu" "SPELL_SHADOW_SUMMONFELGUARD"
 /cast 魔典：恶魔卫士
 END

@@ -17,9 +17,6 @@ VER 3 0000000000000026 "gank" "132095"
 /cast Blood Fury(Racial)
 /cast Soul Reaper
 END
-VER 3 0000000000000025 "lu" "SPELL_SHADOW_SUMMONFELGUARD"
-/cast 魔典：恶魔卫士
-END
 VER 3 000000000000000C "mim" "SPELL_WARLOCK_DEMONICPORTAL_GREEN"
 #showtooltip 迷魅(特殊技能)
 /cast 迷魅(特殊技能)
@@ -85,6 +82,11 @@ VER 3 000000000000001A "墙" "ABILITY_WARRIOR_SHIELDWALL"
 /equipslot 17 暴虐角斗士的墙盾
 /cast 防御姿态
 /cast 盾墙
+END
+VER 3 0000000000000025 "干" "132095"
+#showtooltip 灵魂收割
+/cast 血性狂怒(种族特长)
+/cast 灵魂收割
 END
 VER 3 0000000000000015 "挂" "ABILITY_WARLOCK_BANEOFHAVOC"
 /tar player 

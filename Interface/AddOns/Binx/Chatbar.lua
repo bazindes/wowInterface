@@ -11,7 +11,7 @@ COLORSCHEME_BORDER   = { 0.3,0.3,0.3,1 }
 local chat = CreateFrame("Frame","chat",UIParent)
 chat:SetWidth(20); -- 主框体宽度
 chat:SetHeight(200); -- 主框体高度
-chat:SetPoint("TOPLEFT",UIParent,37,-177); -- 锚点,想移动位置的改这里
+chat:SetPoint("BOTTOMLEFT",UIParent,37,40); -- 锚点,想移动位置的改这里
 
 
 -- "说(/s)" --

@@ -20,7 +20,7 @@ Bagnon_Sets = {
 			["columns"] = 10,
 			["alpha"] = 1,
 			["spacing"] = 2,
-			["bagBreak"] = false,
+			["y"] = 213.333297729492,
 			["x"] = -175.333374023438,
 			["search"] = false,
 			["broker"] = true,
@@ -28,7 +28,7 @@ Bagnon_Sets = {
 			["itemScale"] = 1,
 			["color"] = {
 			},
-			["y"] = 213.333297729492,
+			["bagBreak"] = false,
 		},
 		["vault"] = {
 			["color"] = {

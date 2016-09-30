@@ -3,7 +3,11 @@ bcmDB = {
 	["lines"] = {
 		["ChatFrame1"] = 1000,
 	},
-	["playerSeparator"] = ":",
+	["sticky"] = {
+		["EMOTE"] = 1,
+		["YELL"] = 1,
+		["RAID_WARNING"] = 1,
+	},
 	["replacements"] = {
 		"[GEN]", -- [1]
 		"[T]", -- [2]
@@ -24,11 +28,7 @@ bcmDB = {
 		"%1", -- [17]
 	},
 	["playerLBrack"] = "[",
-	["sticky"] = {
-		["EMOTE"] = 1,
-		["YELL"] = 1,
-		["RAID_WARNING"] = 1,
-	},
 	["playerRBrack"] = "]",
+	["playerSeparator"] = ":",
 	["BCM_Timestamp"] = true,
 }

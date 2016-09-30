@@ -1,5 +1,0 @@
-TinyFilmEffect: disabled
-TinyChat: disabled
-BasicChatMods: enabled
-vexrunes: disabled
-TinyUntitled: enabled

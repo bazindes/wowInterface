@@ -9,5 +9,5 @@ TinyEnchantDB.lua
 TinyInspect.lua
 PaperDoll.lua
 BagItemLevel.lua
-PartyItemLevel.lua
+##PartyItemLevel.lua
 ##Mouseover.lua
